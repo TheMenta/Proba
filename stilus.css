@@ -3,18 +3,48 @@ body{
     color: white;
     text-align: center;
 }
-h1{
-    text-decoration: bold;
-}
 
-.kontener{
+.grid{
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
     justify-content: space-evenly;
-    max-width: 800px;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+.kollegak{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    justify-content: space-evenly;
+    max-width: 600px;
     margin: auto;
 }
+
+.szoveg{
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.kollega1 img{
+    width: 150px;
+}
+.kollega2 img{
+    width: 150px;
+}
+.kollega3 img{
+    width: 150px;
+}
+.kollega4 img{
+    width: 150px;
+}
+
 .menu li{
     text-align: center;
     list-style-type: none;
@@ -27,16 +57,81 @@ h1{
     max-width: 50%;
 }
 
-img{
-    width: 100px;
+.elso img{
+    width: 150px;
+}
 
+.masodik img{
+    width: 150px;
+}
 
+.harmadik img{
+    width: 150px;
+}
 
+.elso li{
+    text-align: left;
+    padding-bottom: 10px;
+}
 
+.masodik li{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.harmadik li{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.masodik{
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+}
+
+.harmadik h2{
+    text-align: center;
+}
+
+ul {
+    list-style-image: url('');
+  }
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.abra{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    justify-content: space-evenly;
+    max-width: 600px;
+    margin: auto;
+}
+
+.folyamatkep img{
+    max-width: 100%;
+}
+
+.folyamatelso{
+    text-align: left;
+}
+
+.folyamatelso h1{
+    border-bottom: 2px solid red;
+}
 @media only screen and (max-width: 600px) {
-
-
-}
-@media only screen and (max-width: 400px) {
-  
-}
+    img {
+        max-width: 10px;
+    }
+    .menu ul{
+        margin: 0;
+        padding-left: 0;
+        display: grid;
+        grid-template-columns: auto;
+        max-width: 50%;
+    
+    }
+  }
